@@ -7,7 +7,7 @@ import org.jsoup.Jsoup
 
 open class LibReadProvider : MainAPI() {
     override val name = "LibRead"
-    override val mainUrl = "https://libread.com"
+    override val mainUrl = "https://libread.org"
     override val hasMainPage = true
     open val removeHtml = false // because the two sites use .html or not for no reason
 
